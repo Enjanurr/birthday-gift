@@ -1,0 +1,143 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+#heading{
+  
+    height: 60px;
+    margin-top:80px;
+    padding:0px;
+    
+}
+
+
+h1 {
+    color:#fff;
+    text-align: center;
+    font-size:40px;
+    
+}
+
+#login{
+    border:2px solid rgba(255,255,255,.2);
+    width:400px ;
+    backdrop-filter: blur(2px);
+    background: transparent;
+    border-radius: 10px;
+    color:#fff;
+    margin-top: 100px;
+    height:300px;
+   
+   
+}
+/*login*/
+#title{
+    padding-top: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+#username{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+
+#username input{
+    height:35px;
+    width:250px;
+    border-radius:20px;
+    border:solid plum;
+    outline: none;
+    background-color: transparent;
+    padding:10px;
+    
+    
+}
+#username input::placeholder{
+    color:#fff
+}
+/*username icon*/
+#username img{
+    position:absolute;
+    right: 85px;
+    padding-top:5px;
+    filter:opacity()
+    
+}
+
+/*innput*/
+#input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#input input{
+    border-radius: 20px;
+    border:solid plum;
+    outline: none;
+    cursor: pointer;
+    height: 35px;
+    width: 250px;
+    background-color: transparent;
+    padding: 10px
+}
+#input input::placeholder{
+    color:#fff;
+}
+/*password icon*/
+#input img{
+    position:absolute;
+    right:85px;
+    padding-top:5px;
+    width: 24px;
+    color: #fff;
+    
+
+}
+#button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+#button button{
+    padding: 5px 100px;
+    border-radius: 20px;
+    font-family:cursive;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    outline:none;
+    cursor:pointer;
+    border: solid plum;
+    height: 35px;
+    
+    
+    
+
+}
+
+#button button:hover{
+    background-color: plum;
+}

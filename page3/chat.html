@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="chat.css">
+</head>
+<body>
+    <div class="valentine-day-card">
+        <input id="open" type="checkbox">
+        <label for="open" class="open"></label>
+        <div class="card-front">
+            <div class="note">CLICK TO OPEN</div>
+        </div>
+        <div class="card-inside">
+            <div class="text-one">Happy</div>
+            <div class="heart"></div>
+            <div class="smile"></div>
+            <div class="eyes"></div>
+
+        </div>
+    </div>
+    <button id="redirectbutton">Go back</button>
+</body>
+<script>
+    addEventListener("DOMContentLoaded",function(){
+        document.getElementById("redirectbutton").addEventListener("click",function(){
+            window.location.href="/page2/indexpg2.html"
+        });
+    });
+
+</script>
+</html>
