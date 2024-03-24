@@ -7,8 +7,10 @@ body,html{
     padding:0;
     font-family: arial;
 }
+
+/*backgound*/
 .container{
-    background-color:hsl(0, 4%, 5%);
+    background-image:url(/page3/piktyur/We\ bare\ bears\ 🐻.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-attachment: fixed;
@@ -19,55 +21,94 @@ body,html{
    justify-content: center;
    align-items: center;
    flex-wrap:wrap;
-}
-.pic{
-     background-color:hsl(0, 4%, 5%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* WebKit browsers */
+  }
+  
+.holder {
+     background-color: transparent;
     width:400px;
-    height: 600px;
-    padding: 25px 35px;
+    height: 300px;
     text-align:center;
-    display:flex;
-    justify-content:center;
     border-radius:30px;
+    border:solid #fff;
+    margin-top:150px;
+}
+.music-pic{
+    background-color:black;
+    width:150px;
+    padding:10px 10px;
+    margin-top:10px;
+    margin-left:30px;
 }
 .img{
+
+    height:120px;
+    margin-top:1px;
+    border-radius: 10%;
     
-    height:250px;
-    margin-top:20px;
-    margin-right:auto;
-    position:absolute;
-    border-radius: 50%;
-    border: solid #554545 10px;
     
 }
-
-audio{
-    width:300px;
-    height:500px;
+.name{
+    
+    position:relative;
+    margin-left:190px;
+    width:100px;
     margin-top:-100px;
-    position: absolute;
-
 }
+h1{
+    color:#fff;
+    font-size:10px;
+    font-size:20px;   
+}
+p{
+    color:#fff;
+
+}/*
+.music{
+background-color:blue;
+width:300px;
+height:50px
+}*/
+
+
 
 #progress{
     -webkit-appearance: none;
-    width:100%;
+    width:70%;;
     height:6px;
-    background: brown;
+    background:#fff;
     border-radius: 4px;
     cursor:pointer;
-    margin-top: 450px;
+    margin-top: 10px;
 }
 #progress::-webkit-slider-thumb{
     -webkit-appearance:none;
-    background:brown;
+    background:#fff;
     width:30px;
     height:30px;
     border-radius:50%;
     border: 8px solid #fff;
     box-shadow: 0 5px 5px rgba(255. 26, 26, 0.22);
 }
+.controls{
+ background-color: blue;
+ width:80%;
+ height:50px;
+ display:inline-block;
+ align-items:center;
+ margin-top:15px;
+}
+.controls > div{
+    background-color: #fff;
+    width:50px;
+    height:50px;
+    display: inline-block;
+    margin-left:20px;
+    margin-right:20px;
+}
 
+/*
 .controls img{
     height:40px
 }
